@@ -21,6 +21,9 @@ public class Drug {
     @NotBlank(message = "Name is required")
     private String name;
 
+    @NotBlank(message = "Batch Number is required")
+    private String batchNumber;
+
     @NotBlank(message = "Manufacturer is required")
     private String manufacturer;
 
